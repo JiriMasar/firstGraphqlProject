@@ -1,0 +1,8 @@
+enum Currency {
+    USD
+    EUR
+    CZK
+    CHF
+    JPY
+    GBP
+}

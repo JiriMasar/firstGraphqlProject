@@ -1,1 +1,12 @@
-
+graphql:
+  servlet:
+    maxQueryDepth: 100
+    exception-handlers-enabled: false
+  playground:
+    headers:
+      Authorization: Bearer TOKEN
+    tabs:
+      - name: Bank account sample query
+        query: classpath:playground/bankAccount.graphql
+        variables: classpath:playground/bankAccountVariables.json
+    enabled: true
